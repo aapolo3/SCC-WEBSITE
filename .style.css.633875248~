@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* NAVIGATION BAR */
+#brand {
+    text-decoration: none;
+    color: white;
+    font-family: 'Romero', sans-serif;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+
+#home {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25px;
+    font-size: 20px;
+}
+
+#treatments {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25px;
+    font-size: 20px;
+}
+
+#communities {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.25px;
+    font-size: 20px;
+}
+
+
+
+/* HOME PAGE */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text {
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+
+
+
+/* TREATMENTS PAGE */
+.treatments-page {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+/* COMMUNITIES PAGE */
+.communities-page {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.slideshow-container {
+    width:1368px;
+    height:1823px;
+    overflow:hidden;
+    margin-left:360px;
+    margin-top:20px;
+}
+@keyframes slide_animation {
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left:2400px;}
+    50% {left:2400px;}
+    60% {left:1200px;}
+    70% {left:1200px;}
+    80% {left:0px;}
+    90%  {left:0px;}
+    100% {left:0px;}
+}
+.slideshow-images {
+    width:3600px;
+    height:800px;
+    margin: 0 0 0 -2400px;
+    position:relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+.slideshow-images-container {
+    float: left;
+    width: 800px;
+    height: 1200px;
+    position: relative;
+}
+

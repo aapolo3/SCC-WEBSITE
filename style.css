@@ -1,0 +1,367 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Istanbul Pro', sans-serif;
+}
+
+p {
+  margin: 80px;
+  font-family: 'Istanbul Pro', sans-serif;
+}
+
+li {
+  font-family: 'Istanbul Pro', sans-serif;
+}
+
+/* NAVIGATION BAR */
+#brand {
+  text-decoration: none;
+  color: white;
+  font-family: 'Romero', sans-serif;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
+#home {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.25px;
+  font-size: 20px;
+}
+
+#home:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+#treatments {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.25px;
+  font-size: 20px;
+}
+
+#treatments:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+#communities {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.25px;
+  font-size: 20px;
+}
+
+#communities:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+#profile {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.25px;
+  font-size: 20px;
+}
+
+#profile:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+
+
+/* HOME PAGE */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-text {
+  margin:3%;
+  text-align: center;
+  font-size: 15px;
+}
+
+.homeimg {
+  justify-content: center;
+  width: 920px;
+  height: auto;
+  border: 5px solid #82BDAF;
+  border-radius: 15px;
+
+}
+
+.signup {
+  font-size: 30px;
+  font-family: 'Istanbul Pro', sans-serif;
+  color: #82BDAF;
+  border: 2px solid #82BDAF;
+  border-radius: 8px;
+  background-color: white;
+  margin:8px;
+}
+.donation2 {
+
+  font-size: 30px;
+  font-family: 'Istanbul Pro', sans-serif;
+  color: #82BDAF;
+  border: 2px solid #82BDAF;
+  border-radius: 8px;
+  background-color: white;
+  margin:8px;
+  text-align: center;
+  
+}
+
+.syp {
+
+  font-size: 30px;
+  font-family: 'Istanbul Pro', sans-serif;
+  color: #82BDAF;
+  border-radius: 8px;
+  background-color: white;
+  margin:8px;
+  text-align: center;
+  
+}
+.login {
+  font-size: 30px;
+  font-family: 'Istanbul Pro', sans-serif;
+  color: #82BDAF;
+  border: 2px solid #82BDAF;
+  border-radius: 8px;
+  background-color: white;
+  margin:8px;
+}
+
+
+
+/* TREATMENTS PAGE */
+.treatments-page {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+.sideeffects {
+  font-family: 'Istanbul Pro', sans-serif;
+  background-color: #ededed;
+  padding: 15px;
+  border-radius: 15px;
+  color: gray;
+  text-align: left;
+}
+
+.med1pic {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  border: 8px solid #82BDAF;
+  margin: 81px;
+  align-items: left;
+}
+
+.med2pic {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  border: 8px solid #82BDAF;
+  margin: 81px;
+  align-items: left;
+  margin-right: 15px;
+  margin-left: auto;
+}
+.med3pic {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  border: 8px solid #82BDAF;
+  margin: 81px;
+  align-items: left;
+}
+.med4pic {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  border: 8px solid #82BDAF;
+  margin: 81px;
+  align-items: left;
+}
+.med5pic {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  border: 8px solid #82BDAF;
+  margin: 81px;
+  align-items: left;
+}
+.med7pic {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  border: 8px solid #82BDAF;
+  margin: 81px;
+  align-items: left;
+}
+
+.med1{
+  display: flex;
+  justify-content: left;
+  margin-left: 5px;
+  float: left;
+}
+.med2 {
+  display: flex;
+  justify-content: left;
+  margin-left: 5px;
+  float: left;
+}
+.med3{
+  display: flex;
+  justify-content: left;
+  margin-left: 5px;
+  float: left;
+}
+.med4{
+  display: flex;
+  justify-content: left;
+  margin-left: 5px;
+  float: left;
+}
+.med5{
+  display: flex;
+  justify-content: left;
+  margin-left: 5px;
+  float: left;
+}
+.med7{
+  display: flex;
+  justify-content: left;
+  margin-left: 5px;
+  float: left;
+}
+.med1a {
+  margin-top: 10px;
+  margin-left: -100px;
+  align-items: left;
+}
+.med2a {
+  margin-top: 77px;
+  margin-left: -100px;
+  align-items: left;
+}
+.med3a {
+  margin-top: 77px;
+  margin-left: -100px;
+  align-items: left;
+}
+.med4a {
+  margin-top: 77px;
+  margin-left: -100px;
+  align-items: left;
+}
+.med5a {
+  margin-top: 77px;
+  margin-left: -100px;
+  align-items: left;
+}
+.med7a {
+  margin-top: 77px;
+  margin-left: -100px;
+  align-items: left;
+}
+
+.medtitle {
+  font-family: 'Istanbul Pro', sans-serif;
+  font-style: bold;
+  font-weight: 115px;
+  color: #308A7E;
+  font-size: 25px;
+}
+
+.meddetails {
+  background-color: #ededed;
+  color: gray;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: left;
+
+}
+
+.med1info {
+  margin-top: -45px;
+}
+.medicine {
+  text-align: left; 
+  padding: 15px;
+  margin-left: 81px;
+}
+
+
+
+/* COMMUNITIES PAGE */
+.communities-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin:30px;
+  padding:0 50px;
+}
+.scc-patient {
+  border: 8px solid #82BDAF;
+  border-radius: 18px;
+}
+/* .map-container {
+  flex-direction:column;
+  align-content:center;
+  align-items:center;
+  justify-content:center;
+} */
+
+.map {
+  border: 8px solid #82BDAF;
+  border-radius: 18px;
+  margin-left:50px;
+}
+
+.inspiring-text {
+  text-align: center;
+  margin: 30px;
+  font-family: 'Istanbul Pro', sans-serif;
+  font-size:25px;
+  color: #82BDAF;
+}
+.donationinfo {
+  text-align: center;
+  font-family: 'Istanbul Pro', sans-serif;
+  color:  #82BDAF;
+}
+
+
+
+/* PROFILE PAGE */
+.form-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* LOGIN PAGE */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+}
+.

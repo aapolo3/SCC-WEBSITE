@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>
+        Sickle Cell Community
+    </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.cdnfonts.com/css/ts-block" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/istanbul-pro" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/romero" rel="stylesheet">
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: #2b3036;">
+    <nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+        <!-- Navbar content -->
+        <div class="container-fluid">
+            <a id="brand" href="#">SCC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" style="margin:3px;">
+                        <a id="home" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item" style="margin:3px;">
+                        <a id="treatments" aria-current="page" href="#">Treatments</a>
+                    </li>
+                    <li class="nav-item" style="margin:3px;">
+                        <a id="communities" aria-current="page" href="#">Communities</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search" style="margin-top:8px;margin-bottom:8px;">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="home-page">
+        <div class="home-text">
+            <h1 style="font-family: 'TS Block Bold', sans-serif;color: white;font-size: 45px;">
+                GET YOUR LIFE BACK
+            </h1>
+            <br>
+            <p style="font-family: 'Istanbul Pro', sans-serif;color: #ababab;">
+                Let us help you find the right medications and connect you with the right people.
+            </p>
+        </div>
+    </div>
+
+    <div class="treatments-page">
+
+    </div>
+
+    <div class="communities-page">
+        <div class = "slideshow-container">
+            <div class = "slideshow-images">
+                <div class = "slideshow-images-container">
+                    <img src = "https://lh3.googleusercontent.com/pw/AIL4fc-AH2nd7EzaRNfF3c_A66x9VW3YrsD0CsYGB1ZNk9hfFPKgsLAgwnXQbNFQ6lCPc-2EmN8mCu_-f3XnQTfj_ZwjJQCgymyBPYFDYLcnSZa9bXfYY-ewXplB1KRlyCgGKY-jSIvOER3fsUGcFRjvqMTQreNHqRluWQCkrfll5J8d78ZMWMrHI5xOD1RsusSq1pVovMt2156MVAxwotO6C-l3UpHPzDU5bZFppHk4gCSdjm-ZgCbiddYdxkleELA0mmzO0HAnJ0ceoq7cCoaiPwvWZaq2V9aJWZhe4ewISFoDzN10uJbz8R6dlRcwa05wEuetcA2IZ465xZljdDcOicNXg_ghCgn8qq0SV4X7jzt_ja_r1z1roI4ma7vUhHXiAksan87XF3-KFH-wLhnkbjfw7MxE-xSC3CS_nLCeHS9zfn-XabUc99lZjBQb_m0aMMf30KgqF69Ft2QKODH2owek-GlZqHMMhT5S-coI2JwGjMTEyVNND-o_cg0qmldngaysCLjuHFENmQmnCQ5eoeNLJj0ywYb1KNG6vMGO0evB6uCP965LFCt9m4A-DwKxvFhyIcR79BBZct38o_FL8XSrPaZuYpcC6HJvCWYy5p2xc7cMA7bFupI_ePF_ppJGtohLYJ0D-JAshUEEMmnwP11TVEFORknJl6Fht46cr4XUZvA5F1_hxJ5cKrUrpCm0K-36CvZuOlhlFG6oH8wzhDIvL3UsjIid_oRrarWeCbA6zwipk3hJh3a-TMbPP7w685umDbzjV4zjhm4KXHfKl_6vsIchE6lA7Nr0AhYZGdnfQTp4PtFjiwP-x1Oy12ZtRKkCAvOIpVF6sudr0azBkq65JM9bT8X270jYWExBYQW7rUJj9CUTwvDGrWCTYgHCLWs-5r08YA6js3980w2n60lmaPjnF2tPVmMEcjoxZRoxjraVMH1lkk39lC2W=w684-h912-s-no?authuser=0">
+                </div>
+                <div class = "slideshow-images-container">
+                    <img src = "https://lh3.googleusercontent.com/pw/AIL4fc9hBSJMzhung4Ep-0ZmKpbXkz2bI0wZTFSuB8EEHoFH0Dn3XEtDgcxu5zordOq9yiVD7XhCF0-hBHRa3XbKpEQ4EpeWDfmFHKxMVUCrYWKg4GtMTYkny9UsLiVXYPfWVv0_KbR3nQmBua5NIUGpe_uGOd3DNI6bWJu27-wr9QVvn22BIOxoMq75XcwLKuZp_SLMLC_Y_QnHcbL90o1cQnJ_JY895whJxRFeWZg4QQ1a_PLYvVElXffVg8ld9ojhMQU8wMrfauAWIkEy_7y_FAo5VYxkH7sdwJuG_8fiJ_EwvA6jiiVYdnjBzaQ99YU03X6IlhvWhNDpFs8Kgv5E3lII9vALD6a44yuE_ZZYXv6Wdr0BoqPixjbhkDllW4ph50FDWWbzykSQSyP5rhlA_I39_B7UH99MJ2EOEYQjpOBmzqFa-kdmH99dJrigrdWuMilh4RCFcr13rbIE532GmzTkbAYQACZkObAo9iQgwPyVxRyIex5hTlGmr7t-VKGcjE7amxhWEOrQTMYJgCOgkev63TdaSai4LlqFQXGhWKo6FnpVArxLs8OHLjLsBhiG8-8cAZV_I-W3c6SE91F8lZiHWHiFHzKQsWYK-I2gBOLsZuOMbKG0BTAcow7BLpJ4GaBcHDwJhYVz3WxnjXQPtIHFLECUGabf81X5HAf0wmSH18-4VUZM9uTRxpOrSIcb-b_SE5o9mCd6rBkyco4mDedmcbn6bPjuA2tz-2TO4T3qyUAvBVHZUOwU9eULA-21CumJQehF7xmNgfWjyurjt7hjZKkqU9oKLeLlo-YpYxDoB_-H5qXagxN4hRkzaonPF9pDzM__BwfqsThHmJrH91tZTwMZsy7jZBPIeVrz1T-j8yjNhFBhqZCAko-WKl2fd1_bcV0SZ6lHnF3N44Gj73b6FZ25LtP5ocdYYyOr18CmWonq1Pk_dnKdzjl7=w684-h912-s-no?authuser=0">
+                </div>
+                <div class = "slideshow-images-container">
+                    <img src = "https://lh3.googleusercontent.com/pw/AIL4fc9dGoRB50PedW8IdEYaEOrMauKOlAxRJPbg7AeORy5dvITF7zdI-exhl4S6eCREB9UGVMnGFXr-8KPPVwVMxOyqdKA-PDi4EdibjI_wfNVFddtvhOSRCyADJ4aVn6-vb16BVrNTih79NM-bX_T8qMhsHVX5P5_Kg6tjWygwrjrPSWTYtu9JTWDthTWQ4FRF8DfxyeEyFqIgdTq6-MtU1iyUbQ8d5A5AedGuZ5DCmfW06vGjNj_85ectjy1EwY6GEkousd1fqK2biMrlqvayiCEKzGCEXL2HrHYXUUc0Yp6x1tC556XAiQSDVwG5ZgEOVvm8OntmmeDwxT5lSDdnYeT3QWi_gVUcN9KuY3PKcu6GzpRxFxd7Qt-9aPQc0gzZSGvIvmP1tcqvC9bq2IwLodqMmcU4RNCmwvBRwLk_jMHnMuhbsovnZyLE-My5YUzr5Zu0R22Da4pGVLNg1PJ-tF27Sxn3UQVFB6ArdLkxjA98kZnzcA1mhH3SSDm99ETVyrdc1jSN5w9pLDNcZGGtka8tC4gL2FksRBnUwmaAq651K1YI_B7kBLub91MjDRB07hEcCzLuU_d56caMGIzxoMK7Bqu1z7AazvG8Lu8cj026lLf5sIRGRu-Ugd4HctxkA3AJzemQ0CokIxErDRI0FQ9TUFmucyvbFP3-koGB8iiYhWr-86x5bPoAguRnpH_CG_q9_jA03TukT3qroAQPtiOPYxZh9qU7t_8SMSrHT2VtCXSYbOqRvOy2hF9QLgCVWeXF6Bq1XpAMxQGf7XtshkrVwFVhDORXf-THSDbugWpUO_Hn-MoJXF1Z_d0jymf34dUvpQ5z7hrH3E2T0MTVdb3hz6ZvJGF8OZ2FY9vyYW2groplG5FhdOY8rAjWibmtXv-zaRAdrnIBz9NK5u7yrPK9sBeIKCj_QoF5jRVlE9S-TV_-YDXZjkl9y3Ox=w727-h969-s-no?authuser=0">
+                </div>
+            </div>    
+        </div>        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
